@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -163,7 +162,13 @@ public static class Builder
 
         var paramResult = new HashSet<string>();
         method
-            .Parameters.Select(p => GetParameterDisplayString(p, codeGenerator.HasNullable))
+            .Parameters.Select(p =>
+                p.ToDisplayString(
+                    FullyQualifiedDisplayFormat,
+                    codeGenerator.HasNullable,
+                    generatedInterfaceNames
+                )
+            )
             .ToList()
             .ForEach(x => paramResult.Add(x));
 
@@ -232,28 +237,6 @@ public static class Builder
         }
 
         return false;
-    }
-
-    private static string GetParameterDisplayString(
-        IParameterSymbol param,
-        bool nullableContextEnabled
-    )
-    {
-        // If this parameter has default value null and we're enabling the nullable context, we need to force the nullable annotation if there isn't one already
-        if (
-            param.HasExplicitDefaultValue
-            && param.ExplicitDefaultValue is null
-            && param.NullableAnnotation != NullableAnnotation.Annotated
-            && param.Type.IsReferenceType
-            && nullableContextEnabled
-        )
-        {
-            var addNullable = new AddNullableAnnotationSyntaxRewriter();
-            return addNullable
-                .Visit(param.DeclaringSyntaxReferences.First().GetSyntax())
-                .ToFullString();
-        }
-        return param.ToDisplayString(FullyQualifiedDisplayFormat);
     }
 
     private static void AddEventsToInterface(
