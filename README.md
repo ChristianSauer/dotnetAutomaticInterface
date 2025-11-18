@@ -189,6 +189,11 @@ Note that we use [Verify](https://github.com/VerifyTests/Verify) for testing. It
 
 ## Changelog
 
+### 6.0.2
+
+- Added feature to allow generated interfaces to reference other generated interfaces
+
+
 ### 6.0.0
 
 Forked from [AutomaticInterface](https://github.com/codecentric/net_automatic_interface) because I no longer work there and it is uncertain if somebody takes it over.
@@ -199,7 +204,7 @@ Forked from [AutomaticInterface](https://github.com/codecentric/net_automatic_in
 
 ### 5.2.6
 
-- Fix wrong documenation on interface for this library 
+- Fix wrong documentation on interface for this library 
 - Fix handling of parameters with default null. Thanks paramamue!
 
 ### 5.2.5
