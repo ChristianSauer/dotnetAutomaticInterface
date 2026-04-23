@@ -192,26 +192,6 @@ public static class Builder
         bool nullableContextEnabled
     )
     {
-        var paramParts = param.ToDisplayParts(FullyQualifiedDisplayFormat);
-        var typeSb = new StringBuilder();
-        var restSb = new StringBuilder();
-        var isInsideType = true;
-        // The part before the first space is the parameter type
-        foreach (var part in paramParts)
-        {
-            if (isInsideType && part.Kind == SymbolDisplayPartKind.Space)
-            {
-                isInsideType = false;
-            }
-            if (isInsideType)
-            {
-                typeSb.Append(part.ToString());
-            }
-            else
-            {
-                restSb.Append(part.ToString());
-            }
-        }
         // If this parameter has default value null and we're enabling the nullable context, we need to force the nullable annotation if there isn't one already
         if (
             param.HasExplicitDefaultValue
@@ -221,9 +201,12 @@ public static class Builder
             && nullableContextEnabled
         )
         {
-            typeSb.Append('?');
+            var addNullable = new AddNullableAnnotationSyntaxRewriter();
+            return addNullable
+                .Visit(param.DeclaringSyntaxReferences.First().GetSyntax())
+                .ToFullString();
         }
-        return typeSb.Append(restSb).ToString();
+        return param.ToDisplayString(FullyQualifiedDisplayFormat);
     }
 
     private static void AddEventsToInterface(List<ISymbol> members, InterfaceBuilder codeGenerator)

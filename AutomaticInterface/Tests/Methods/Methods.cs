@@ -88,10 +88,10 @@ public class Methods
             [GenerateAutomaticInterface]
             public class DemoClass
             {
-                    public bool TryStartTransaction(int? param, int param2 = 0, string data = null)
-                    {
-            return true;
-            }
+                public bool TryStartTransaction(int? param, int param2 = 0, string data = null, Func<int, int> func = null)
+                {
+                    return true;
+                }
             }
 
 
