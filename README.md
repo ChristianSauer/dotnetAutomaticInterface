@@ -1,12 +1,13 @@
-# Automatic Interface
+# Dotnet Automatic Interface
 
 A C# Source Generator to automatically create Interfaces from classes.
+Inheritor to https://github.com/codecentric/net_automatic_interface
 
 [![NuGet version (sourcedepend)](https://img.shields.io/nuget/v/AutomaticInterface?color=blue)](https://www.nuget.org/packages/AutomaticInterface/)
 
 ## What does it do?
 
-Not all .NET Interfaces are created equal. Some interfaces are lovingly handcrafted, e.g. the public interface of your .NET package which is used by your customers. Other interfaces are far from lovingly crafted, they are birthed because you need an interface for testing or for the DI container. They are often implemented only once or twice: The class itself and a mock for testing. They are noise at best and often create lots of friction. Adding a new method / field? You have to edit the interface, too!. Change parameters? Edit the interface. Add documentation? Hopefully you add it to the interface, too!
+Not all .NET Interfaces are created equal. Some interfaces are lovingly handcrafted, e.g., the public interface of your .NET package which is used by your customers. Other interfaces are far from lovingly crafted, they are birthed because you need an interface for testing or for the DI container. They are often implemented only once or twice: The class itself and a mock for testing. They are noise at best and often create lots of friction. Adding a new method / field? You have to edit the interface, too!. Change parameters? Edit the interface. Add documentation? Hopefully you add it to the interface, too!
 
 This Source Generator aims to eliminate this cost by generating an interface from the class, without you needing to do anything.
 This interface will be generated on each subsequent build, eliminating the friction.
@@ -14,7 +15,7 @@ This interface will be generated on each subsequent build, eliminating the frict
 ## Example
 
 ```c#
-using AutomaticInterface;
+using DotnetAutomaticInterface;
 using System;
 
 namespace AutomaticInterfaceExample
@@ -102,7 +103,7 @@ namespace AutomaticInterfaceExample
     /// <summary>
     /// Class documentation will be copied
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IDemoClass
     {
         /// <inheritdoc cref="AutomaticInterfaceExample.DemoClass.Hello" />
@@ -187,6 +188,10 @@ Should be simply a build and run Tests
 Note that we use [Verify](https://github.com/VerifyTests/Verify) for testing. It's recommended that you use te Verify plugin for your UI.
 
 ## Changelog
+
+### 6.0.0
+
+Forked from [AutomaticInterface](https://github.com/codecentric/net_automatic_interface) because I no longer work there and it is uncertain if somebody takes it over.
 
 ### 5.2.7
 

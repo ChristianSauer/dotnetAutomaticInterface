@@ -7,7 +7,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -28,7 +28,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -51,7 +51,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -76,7 +76,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -105,7 +105,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
             using System.Threading.Tasks;
 
@@ -135,7 +135,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -160,7 +160,7 @@ public class Properties
     public async Task WorksWithPropertyShadowing()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -184,7 +184,7 @@ public class Properties
     public async Task WorksWithPropertyOverrides()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -210,7 +210,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -232,7 +232,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -255,7 +255,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -278,7 +278,7 @@ public class Properties
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {

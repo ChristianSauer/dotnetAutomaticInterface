@@ -7,7 +7,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -35,7 +35,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -58,7 +58,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -81,7 +81,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -104,7 +104,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -127,7 +127,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
             using System.Threading.Tasks;
 
@@ -151,7 +151,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
 
             namespace AutomaticInterfaceExample
@@ -175,7 +175,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
             using System.Threading.Tasks;
 
@@ -199,7 +199,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
 
             namespace AutomaticInterfaceExample
@@ -222,7 +222,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
 
             namespace AutomaticInterfaceExample
@@ -246,7 +246,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
             using System.IO;
 
@@ -272,7 +272,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
 
             namespace AutomaticInterfaceExample
@@ -300,7 +300,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.IO;
 
             namespace AutomaticInterfaceExample
@@ -327,7 +327,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -357,7 +357,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -378,7 +378,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -408,7 +408,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace AutomaticInterfaceExample;
             [GenerateAutomaticInterface]
             public class DemoClass
@@ -429,7 +429,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
             using System.IO;
             using System.Threading;
@@ -468,7 +468,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -491,7 +491,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -514,7 +514,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -536,7 +536,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -561,7 +561,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -586,7 +586,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -608,7 +608,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -630,7 +630,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -661,7 +661,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -684,7 +684,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;
@@ -706,7 +706,7 @@ public class Methods
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Threading.Tasks;
 
             namespace AutomaticInterfaceExample;

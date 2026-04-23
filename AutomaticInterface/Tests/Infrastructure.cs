@@ -1,4 +1,4 @@
-﻿using AutomaticInterface;
+﻿using DotnetAutomaticInterface;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 

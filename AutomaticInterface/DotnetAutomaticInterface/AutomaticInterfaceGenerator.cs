@@ -3,7 +3,7 @@ using System.Collections.Immutable;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace AutomaticInterface;
+namespace DotnetAutomaticInterface;
 
 [Generator]
 public class AutomaticInterfaceGenerator : IIncrementalGenerator
@@ -21,7 +21,7 @@ public class AutomaticInterfaceGenerator : IIncrementalGenerator
 
         var classes = context
             .SyntaxProvider.ForAttributeWithMetadataName(
-                $"AutomaticInterface.{DefaultAttributeName}Attribute",
+                $"DotnetAutomaticInterface.{DefaultAttributeName}Attribute",
                 (node, _) => node is ClassDeclarationSyntax,
                 (ctx, _) => (ITypeSymbol)ctx.TargetSymbol
             )

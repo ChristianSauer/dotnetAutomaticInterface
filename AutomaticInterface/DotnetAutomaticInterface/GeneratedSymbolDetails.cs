@@ -2,7 +2,7 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace AutomaticInterface;
+namespace DotnetAutomaticInterface;
 
 internal sealed class GeneratedSymbolDetails(
     AttributeData? generationAttribute,

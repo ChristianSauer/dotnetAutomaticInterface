@@ -22,6 +22,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutomaticInterface\AutomaticInterface.csproj" />
+    <ProjectReference Include="..\DotnetAutomaticInterface\DotnetAutomaticInterface.csproj" />
   </ItemGroup>
 </Project>

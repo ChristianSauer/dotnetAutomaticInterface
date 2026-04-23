@@ -1,13 +1,12 @@
 ﻿using AutomaticInterface;
 
-namespace TestNuget
+namespace TestNuget;
+
+[GenerateAutomaticInterface]
+public class Test : ITest
 {
-    [GenerateAutomaticInterface]
-    public class Test : ITest
+    public string GetString()
     {
-        public string GetString()
-        {
-            return "works";
-        }
+        return "works";
     }
 }

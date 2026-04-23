@@ -7,7 +7,7 @@ public class Events
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -38,7 +38,7 @@ public class Events
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -67,7 +67,7 @@ public class Events
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -96,7 +96,7 @@ public class Events
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -122,7 +122,7 @@ public class Events
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;

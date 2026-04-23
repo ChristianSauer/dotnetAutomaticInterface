@@ -8,11 +8,11 @@
 
 namespace AutomaticInterfaceExample
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IDemoClass
     {
         /// <inheritdoc cref="AutomaticInterfaceExample.DemoClass.MethodWithDefaultParameter(AutomaticInterfaceExample.EnumWithByteType)" />
         global::AutomaticInterfaceExample.EnumWithByteType MethodWithDefaultParameter(global::AutomaticInterfaceExample.EnumWithByteType a = global::AutomaticInterfaceExample.EnumWithByteType.B);
-        
+
     }
 }

@@ -7,7 +7,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -35,7 +35,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -55,7 +55,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -79,7 +79,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -108,7 +108,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -137,7 +137,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -172,7 +172,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample
@@ -238,7 +238,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace AutomaticInterfaceExample;
             [GenerateAutomaticInterface]
             public class DemoClass
@@ -259,7 +259,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -283,7 +283,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -307,7 +307,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -331,7 +331,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
             using System.IO;
             using System.Threading;
@@ -370,7 +370,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace AutomaticInterfaceExample;
             [GenerateAutomaticInterface(asInternal: true)]
             public class DemoClass
@@ -390,7 +390,7 @@ public class Misc
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace AutomaticInterfaceExample;
             [GenerateAutomaticInterface(asInternal: false)]
             public class DemoClass

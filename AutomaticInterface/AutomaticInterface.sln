@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticInterfaceExample", "AutomaticInterfaceExample\AutomaticInterfaceExample.csproj", "{AFDAB373-7268-4A1B-ABAF-EA076C3B2B4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticInterface", "AutomaticInterface\AutomaticInterface.csproj", "{AA3F5AAE-44B7-4F33-8152-A5251B51AD79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetAutomaticInterface", "DotnetAutomaticInterface\DotnetAutomaticInterface.csproj", "{AA3F5AAE-44B7-4F33-8152-A5251B51AD79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{E267C5B3-44DD-4D26-A2F7-5FDF92FF28D5}"
 EndProject

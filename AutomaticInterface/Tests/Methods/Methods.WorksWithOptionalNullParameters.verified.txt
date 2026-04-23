@@ -8,7 +8,7 @@
 
 namespace AutomaticInterfaceExample
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IDemoClass
     {
         /// <inheritdoc cref="AutomaticInterfaceExample.DemoClass.TryStartTransaction(string)" />

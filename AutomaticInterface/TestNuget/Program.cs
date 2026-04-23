@@ -1,16 +1,15 @@
 ﻿using System;
 
-namespace TestNuget
+namespace TestNuget;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        Console.WriteLine("Hello World!");
 
-            ITest test = new Test();
+        ITest test = new Test();
 
-            Console.WriteLine(test.GetString());
-        }
+        Console.WriteLine(test.GetString());
     }
 }

@@ -7,7 +7,7 @@ public class GenericInterfaces
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -30,7 +30,7 @@ public class GenericInterfaces
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -54,7 +54,7 @@ public class GenericInterfaces
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -77,7 +77,7 @@ public class GenericInterfaces
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 

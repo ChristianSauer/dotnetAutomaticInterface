@@ -12,7 +12,7 @@ namespace AutomaticInterfaceExample
     /// <summary>
     /// Bla bla
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IDemoClass
     {
         /// <inheritdoc cref="AutomaticInterfaceExample.DemoClass.GetFinalDocumentsByIDFails(string, string, bool, bool?, System.Threading.CancellationToken)" />

@@ -7,7 +7,7 @@ public class TypeResolutions
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample;
 
@@ -26,7 +26,7 @@ public class TypeResolutions
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace AutomaticInterfaceExample
             {
@@ -47,7 +47,7 @@ public class TypeResolutions
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using TaskAlias = System.Threading.Tasks.Task;
 
             namespace AutomaticInterfaceExample;
@@ -69,7 +69,7 @@ public class TypeResolutions
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace AutomaticInterfaceExample
             {
                 namespace Models1 {
@@ -97,7 +97,7 @@ public class TypeResolutions
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             namespace RootNamespace
             {
                 namespace Models
@@ -125,7 +125,7 @@ public class TypeResolutions
     public async Task WorksWithShadowedGlobalNamespace()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using Task = System.Threading.Tasks.Task;
 
             namespace AutomaticInterfaceExample
@@ -151,7 +151,7 @@ public class TypeResolutions
     {
         const string code = """
             global using GlobalNamespace;
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace GlobalNamespace
             {

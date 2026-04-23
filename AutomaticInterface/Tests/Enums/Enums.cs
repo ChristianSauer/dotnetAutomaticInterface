@@ -10,7 +10,7 @@ public class Enums
     {
         var code = $$"""
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -34,7 +34,7 @@ public class Enums
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -58,7 +58,7 @@ public class Enums
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
@@ -81,7 +81,7 @@ public class Enums
     {
         const string code = """
 
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System;
 
             namespace AutomaticInterfaceExample;
