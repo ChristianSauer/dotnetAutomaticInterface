@@ -188,6 +188,10 @@ Note that we use [Verify](https://github.com/VerifyTests/Verify) for testing. It
 
 ## Changelog
 
+### 5.2.7
+
+- Fix nullable annotation for types with generics. Thanks paramamue
+
 ### 5.2.6
 
 - Fix wrong documenation on interface for this library 
