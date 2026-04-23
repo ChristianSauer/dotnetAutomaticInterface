@@ -55,7 +55,7 @@ jobs:
         id: package_version
         uses: KageKirin/get-csproj-version@v0
         with:
-          file: AutomaticInterface/AutomaticInterface/AutomaticInterface.csproj
+          file: AutomaticInterface/DotnetAutomaticInterface/DotnetAutomaticInterface.csproj
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
