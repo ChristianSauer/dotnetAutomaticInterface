@@ -1,4 +1,4 @@
-﻿using AutomaticInterface;
+﻿using DotnetAutomaticInterface;
 
 namespace TestNuget;
 

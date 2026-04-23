@@ -8,7 +8,7 @@
 
 namespace Root.Processor
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IModelProcessor
     {
         /// <inheritdoc cref="Root.Processor.ModelProcessor.ProcessFullyQualified(Root.ModelsRoot.Models.IModel)" />
@@ -31,7 +31,7 @@ namespace Root.Processor
 
 namespace Root.ModelsRoot.Models
 {
-    [global::System.CodeDom.Compiler.GeneratedCode("AutomaticInterface", "")]
+    [global::System.CodeDom.Compiler.GeneratedCode("DotnetAutomaticInterface", "")]
     public partial interface IModel
     {
     }

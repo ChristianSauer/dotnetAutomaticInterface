@@ -138,7 +138,7 @@ namespace AutomaticInterfaceExample
 ## How to use it?
 
 1. Install the nuget: `dotnet add package AutomaticInterface`.
-2. Add `using AutomaticInterface;` or (Pro-tip) add `global using AutomaticInterface;` to your GlobalUsings.
+2. Add `using DotnetAutomaticInterface;` or (Pro-tip) add `global using DotnetAutomaticInterface;` to your GlobalUsings.
 3. Tag your class with the `[GenerateAutomaticInterface]` attribute.
 4. The Interface should now be available.
 

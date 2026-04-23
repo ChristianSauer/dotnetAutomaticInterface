@@ -175,7 +175,7 @@ public class TypeResolutions
     public async Task WorksWithGeneratedInterfaceReferences()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace Processor
             {
@@ -207,7 +207,7 @@ public class TypeResolutions
     public async Task WorksWithGeneratedGenericInterfaceReferences()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
             using System.Collections.Generic;
 
             namespace Processor
@@ -240,7 +240,7 @@ public class TypeResolutions
     public async Task WorksWithQualifiedGeneratedInterfaceReferences()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace Processor
             {
@@ -272,7 +272,7 @@ public class TypeResolutions
     public async Task WorksWithQualifiedGeneratedInterfaceReferencesAndOverlappingNamespaces()
     {
         const string code = """
-            using AutomaticInterface;
+            using DotnetAutomaticInterface;
 
             namespace Root
             {
