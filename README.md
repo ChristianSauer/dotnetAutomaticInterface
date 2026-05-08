@@ -3,7 +3,7 @@
 A C# Source Generator to automatically create Interfaces from classes.
 Inheritor to https://github.com/codecentric/net_automatic_interface
 
-[![NuGet version (sourcedepend)](https://img.shields.io/nuget/v/AutomaticInterface?color=blue)](https://www.nuget.org/packages/AutomaticInterface/)
+[![NuGet version (sourcedepend)](https://img.shields.io/nuget/v/DotnetAutomaticInterface?color=blue)](https://www.nuget.org/packages/DotnetAutomaticInterface/)
 
 ## What does it do?
 
