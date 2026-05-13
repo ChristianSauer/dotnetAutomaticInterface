@@ -138,7 +138,7 @@ namespace AutomaticInterfaceExample
 ## How to use it?
 
 1. Install the nuget: `dotnet add package AutomaticInterface`.
-2. Add `using AutomaticInterface;` or (Pro-tip) add `global using AutomaticInterface;` to your GlobalUsings.
+2. Add `using DotnetAutomaticInterface;` or (Pro-tip) add `global using DotnetAutomaticInterface;` to your GlobalUsings.
 3. Tag your class with the `[GenerateAutomaticInterface]` attribute.
 4. The Interface should now be available.
 
@@ -189,6 +189,11 @@ Note that we use [Verify](https://github.com/VerifyTests/Verify) for testing. It
 
 ## Changelog
 
+### 6.0.2
+
+- Added feature to allow generated interfaces to reference other generated interfaces
+
+
 ### 6.0.0
 
 Forked from [AutomaticInterface](https://github.com/codecentric/net_automatic_interface) because I no longer work there and it is uncertain if somebody takes it over.
@@ -199,7 +204,7 @@ Forked from [AutomaticInterface](https://github.com/codecentric/net_automatic_in
 
 ### 5.2.6
 
-- Fix wrong documenation on interface for this library 
+- Fix wrong documentation on interface for this library 
 - Fix handling of parameters with default null. Thanks paramamue!
 
 ### 5.2.5

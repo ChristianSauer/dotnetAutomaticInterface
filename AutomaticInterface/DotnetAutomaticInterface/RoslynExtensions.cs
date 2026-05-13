@@ -10,6 +10,9 @@ namespace DotnetAutomaticInterface;
 /// <summary>
 /// Source: https://github.com/dominikjeske/Samples/blob/main/SourceGenerators/HomeCenter.SourceGenerators/Extensions/RoslynExtensions.cs
 /// </summary>
+/// <remarks>
+/// Enhancements or additional Roslyn-related extension methods should be placed in <see cref="RoslynExtensionsAutomaticInterface"/>
+/// </remarks>
 public static class RoslynExtensions
 {
     private static IEnumerable<ITypeSymbol> GetBaseTypesAndThis(this ITypeSymbol type)

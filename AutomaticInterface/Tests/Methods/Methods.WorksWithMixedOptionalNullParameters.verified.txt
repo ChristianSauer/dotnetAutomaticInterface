@@ -13,7 +13,7 @@ namespace AutomaticInterfaceExample
     public partial interface IDemoClass
     {
         /// <inheritdoc cref="AutomaticInterfaceExample.DemoClass.TryStartTransaction(int?, int, string, Func{int, int})" />
-        bool TryStartTransaction(int? param, int param2 = 0, string? data = null, Func<int, int>? func = null);
+        bool TryStartTransaction(int? param, int param2 = 0, string? data = null, Func<int, int> func = null);
         
     }
 }
